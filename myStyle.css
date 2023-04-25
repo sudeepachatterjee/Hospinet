@@ -1,0 +1,29 @@
+.container-below {
+  position: relative;
+  z-index: 1;
+}
+
+.grid1 {
+  position: relative;
+  z-index: 0;
+}
+
+.grid2 {
+  position: relative;
+  z-index: 0;
+}
+
+footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.popularCardTypography {
+  text-align: center;
+}

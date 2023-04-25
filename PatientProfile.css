@@ -1,0 +1,71 @@
+.a{
+    text-indent: 0.5em;
+   }
+    .container-img{
+       display:block;
+       margin-left: auto;
+       margin-right: auto;
+       border-radius: 60%;
+       width:50%;
+       height:300px;
+       margin-top: 10px;
+       margin-bottom: 5px;
+    
+   }
+   .body{
+       display: flex;
+       height :100hv;
+       justify-content:center;
+       align-items: center;
+       background: url(https://t4.ftcdn.net/jpg/01/17/28/27/360_F_117282771_L6LAXcUaZhRAkwhtbVDvxDqhqgod7uEI.jpg);
+       background-size: cover;
+   }
+   .container {
+       width: 100%;
+       max-width: 650px;
+       padding: 28px;
+       margin: 0 28px;
+       border-radius: 10px;
+       box-shadow: inset 4px -5px 9px 2px;
+   }
+   .form-title{
+       font-size: 26px;
+       font-weight: 600;
+       text-align:center;
+       padding-bottom: 6px;
+       color:white;
+       text-shadow:2px 2px 2px black;
+       border-bottom: solid 1px white;
+   }
+   .main-user-info{
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       padding: 20px 0;
+   }
+   .user-input-box:nth-child(2n){
+       justify-content: end;
+   
+   }
+   .user-input-box{
+       display: flex;
+       flex-wrap: wrap;
+       width:50%;
+       padding-bottom: 15px;
+   }
+   .user-input-box label{
+       width:95%;
+       color:white;
+       font-size: 20px;
+       font-weight: 400;
+       margin:5px 0;
+   }
+   @media(max-width:600px){
+       .container{
+           min-width: 280px;
+       }
+       .user-input-box{
+           margin-bottom: 12px;
+           width:100%;
+       }
+   }

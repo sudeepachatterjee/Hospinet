@@ -1,0 +1,15 @@
+.prescription-details{
+    background-color: #cfe8fc;
+    height: 100vh;
+    text-align: center;
+}
+.pres-now{
+    background-color: white;
+}
+.prescription-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+  }

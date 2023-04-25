@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <title>Hospinet Pharma</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="pharma style.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <style>
+    @keyframes slide {
+      0% {
+        transform: translateX(-100%);
+      }
+
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    p {
+      animation: slide 2s forwards;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="animated-bg"></div>
+
+  <body style="background-color:#1c87c9;">
+    <img src="images/hospinet-low-resolution-logo-color-on-transparent-background.png" alt="">
+
+    <div class="welcome">
+      <h1>WELCOME!!</h1>
+    </div>
+
+    <nav>
+      <div class="logo">
+        <a>HOSPINET</a>
+      </div>
+      <label for="nav-toggle" class="nav-toggle-label">
+      </label>
+      <ul class="navb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Prescription</a></li>
+        <li><a href="medicine.html" target="_blank">Medicine</a></li>
+        <li><a href="location.html" target="_blank">Location</a></li>
+      </ul>
+    </nav>
+    <br>
+
+
+    <div class="input-box">
+      <i class="uil uil-search"></i>
+      <input type="text" placeholder="Search Here...">
+      <button class="button">Search</button>
+    </div>
+    <script>
+      const button = document.querySelector(".button");
+      button.addEventListner("mousedown", () => button.classList.add("clicked"));
+      button.addEventListner("mouseup", () => button.classList.remove("clicked"));
+    </script>
+    <hr>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/General_02012023.jpg" class="d-block w-100" height="600px" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/PM-INAUGURATED_108_20072022.jpg" class="d-block w-100" height="600px" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/quality_02012023.jpg" class="d-block w-100" height="600px" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/Covid.jpg" class="d-block w-100" height="600px" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <hr>
+
+    <div class="video">
+      <iframe style="display: block; margin: auto;" width="800" height="500" src="images/Pradhan-Mantri-Bhartiya-Jan-Aushadhi-Par_15.mp4" title="YouTube video player" frameborder="0"
+        allow="accelerometer autoplay clipboard-write webkitallowfullscreen loop=" true" controls="false" encrypted-media gyroscope picture-in-picture"></iframe>
+    </div>
+    <hr>
+
+    <div class="section destination-details">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 paragraph text-center"></div>
+          <div class="col-12 paragraph text-center read-more-hide show">
+            <p class="fst-italic" style="color:black"><b>The Pradhanmantri Bhartiya Jan Aushadhi Pari Yojana (PMBJP) aims to supply quality generic medications to the general public at reasonable costs, with a focus on the underprivileged and poorer
+                segments of society. The programme intends to lower the average person's out-of-pocket healthcare costs by giving them access to affordable, high-quality medications.
+
+                The PMBJP is a significant programme of the Indian government that aims to solve the problem of exorbitant drug costs, which frequently prevent the poor from accessing healthcare. The programme is being carried out by a network of
+                Pradhanmantri Bhartiya Jan Aushadhi Kendras (PMBJKs), which have been established all over the nation to give people access to generic medications.
+
+
+                The PMBJP is a component of the wider government initiatives.</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h4>COMPANY</h4>
+            <ul class="foots">
+              <li><a style="color: #bbbbbb;">About :-</a></li>
+              <p style="color: #bbbbbb;">Patients can connect with qualified medical specialists and obtain prescriptions for vital medications using this online prescription website. Before writing a prescription, medical practitioners will analyse the health
+                questionnaires
+                and medical histories that patients can submit. The website guarantees the security and privacy of user data. The website may also give patients with easy home delivery choices and discounts on prescription drugs.</p>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>SUPPORT</h4>
+            <ul class="foots">
+              <li><a href="mailto:sachittarway2002@gmail.com">Contact Us</a></li>
+              <li><a href="">Chat With Us</a></li>
+              <li><a href="">We'll Do It For You</a></li>
+              <li><a href="">Help Center</a></li>
+              <li><a href="https://healthid.ndhm.gov.in/register">Get Your Own Health Card</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/HFWOdisha/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/MoHFW_INDIA"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/healthministryofindia/?hl=en"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/ministry-of-health-and-family-welfare-government-of-india/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </body>
+
+</html>
